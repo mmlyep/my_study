@@ -368,7 +368,7 @@ openlayers就是一个地图引擎，可以展示渲染资源
 
 ### 3 WebGIS映射程序架构
 
-![1610110366238](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\01\WebGIS映射程序架构.png)
+![1610110366238](.\img\01\WebGIS映射程序架构.png)
 
 ### 4 创建我的第一张地图
 
@@ -469,7 +469,7 @@ openlayers核心组件
 
 ### 1 核心组件ol.Map
 
-![D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\02\ol.Map.png](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\02\ol.Map.png)
+![.\img\02\ol.Map.png](.\img\02\ol.Map.png)
 
  1个ol.Map
 
@@ -616,7 +616,7 @@ map.getControls();
 
 ### 3 openlayers中的超类/父类 super classs 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\02\superclass.png)
+![](.\img\02\superclass.png)
 
 ​																					继承关系
 
@@ -861,7 +861,7 @@ Key-Value Observing(KVO)
 
 #### 3.3 类ol.Collection
 
-![Collection](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\02\Collection.png)
+![Collection](.\img\02\Collection.png)
 
 ​                                                                              ol.Collection
 
@@ -993,7 +993,7 @@ Map的主要方法
 
   Map其实就是整个Openlayers的核心，更大的说，它是整个WebGIS前端的核心。我们需要使用它来管理我们的Layer、Control、Interaction、Overlay、View等这些组件。所以说我们不管做任何事，都需要让他更Map联系起来。Map就是核心。
 
-![D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\02\ol.Map.png](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\02\ol.Map.png)
+![.\img\02\ol.Map.png](.\img\02\ol.Map.png)
 
 
 
@@ -1001,7 +1001,7 @@ Map的主要方法
 
 
 
-![Map的常用参数](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\05\Map的常用参数.png)
+![Map的常用参数](.\img\05\Map的常用参数.png)
 
 
 
@@ -1179,7 +1179,7 @@ Map的主要方法
 
 ​	canvas是所有现代web浏览器都支持的高性能2D绘图引擎，但它不支持3D渲染，所以说在WebGL普及之前，我们都是用Canvas。
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\05\canvas.png)
+![](.\img\05\canvas.png)
 
 
 
@@ -1205,7 +1205,7 @@ openlayers v5.3.0 API 下
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\05\Map的事件.png)
+![](.\img\05\Map的事件.png)
 
 ```assembly
 change (module: o1/ events / Event- Event) 
@@ -1280,7 +1280,7 @@ singleclick (module: ol / MapBrowserEvent-MapBrowserEvent)
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\05\Map的可观察属性英文版.png)
+![](.\img\05\Map的可观察属性英文版.png)
 
 
 
@@ -1418,7 +1418,7 @@ singleclick (module: ol / MapBrowserEvent-MapBrowserEvent)
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\05\Map的主要方法.png)
+![](.\img\05\Map的主要方法.png)
 
 
 
@@ -1768,7 +1768,7 @@ new View(opt_options)
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\06\View的可观察属性.png)
+![](.\img\img\06\View的可观察属性.png)
 
 
 
@@ -1776,7 +1776,7 @@ new View(opt_options)
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\06\View的主要方法.png)
+![](.\img\06\View的主要方法.png)
 
 v5.3.0的ol/View有rotate方法，在v6.5.0中，ol/View没有rotate方法。
 
@@ -1898,7 +1898,7 @@ v5.3.0的ol/View有rotate方法，在v6.5.0中，ol/View没有rotate方法。
 
 
 
-![View的视图联动](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\06\View的视图联动.png)
+![View的视图联动](.\img\06\View的视图联动.png)
 
 
 
@@ -2024,7 +2024,7 @@ Source对象的架构
 
 矢量数据结构是对矢量数据模型进行数据的组织。通过记录实体坐标及其关系，尽可能精确地表现点、线、多边形等地理实体，坐标空间设为连续，允许任意位置、长度和面积的精确定义。矢量数据结构直接以几何空间坐标为基础，记录取样点坐标。
 
-![矢量数据vs栅格数据](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\矢量数据vs栅格数据.png)
+![矢量数据vs栅格数据](.\img\07\矢量数据vs栅格数据.png)
 
 
 
@@ -2034,7 +2034,7 @@ Source对象的架构
 
 
 
-![Layer的架构](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\Layer的架构.png)
+![Layer的架构](.\img\07\Layer的架构.png)
 
 
 
@@ -2042,7 +2042,7 @@ Source对象的架构
 
 Openlayers v6.5.0 API中Layer下类的继承关系：
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\ol.layer.Layer1.png)
+![](.\img\07\ol.layer.Layer1.png)
 
 
 
@@ -2054,7 +2054,7 @@ layer文件夹下的文件
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\layer文件夹下的文件.png)
+![](..\notes\img\07\layer文件夹下的文件.png)
 
 
 
@@ -2062,7 +2062,7 @@ layer文件夹下的文件
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\Source架构2.png)
+![](.\img\07\Source架构2.png)
 
 
 
@@ -2080,7 +2080,7 @@ OGC 全称是开放地理空间信息联盟(Open Geospatial Consortium),是一�
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\OGC标准.png)
+![](.\img\07\OGC标准.png)
 
 
 
@@ -2134,17 +2134,17 @@ OGC 全称是开放地理空间信息联盟(Open Geospatial Consortium),是一�
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\瓦片的结构.png)
+![](.\img\07\瓦片的结构.png)
 
 
 
 
 
-### 2 栅格图层加载方式
+### 2 各种图层加载方式
 
 
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\ol.layer.XYZ.png)
+![](.\img\07\ol.layer.XYZ.png)
 
 一个关于OpenLayers 3使用的入门教程：
 
@@ -2158,7 +2158,7 @@ OGC 全称是开放地理空间信息联盟(Open Geospatial Consortium),是一�
 
 
 
-OSM图层加载：
+#### 2.1 OSM图层加载
 
 
 
@@ -2174,7 +2174,7 @@ var osmLayer = new ol.layer.Tile({
 
 报错：
 
-![](D:\Core\最近学习\WebGIS\开源架构Webgis解决方案开发指南（2019年新课）\notes\img\07\OSM报错.png)
+![](.\img\07\OSM报错.png)
 
 
 
@@ -2188,3 +2188,140 @@ var osmLayer = new ol.layer.Tile({
         });
 ```
 
+
+
+
+
+#### 2.2 Stamen地图图层加载
+
+<https://stamen.com/open-source/>
+
+
+
+```
+//Stamen图层加载方式1
+        var stamenLayer = new ol.layer.Tile({
+            source: new ol.source.Stamen({
+                //layer:"toner"
+                //layer:"watercolor"
+                layer:"terrain"
+            }) 
+        });
+```
+
+
+
+```
+//Stamen图层加载方式2
+var stamenLayer = new ol.layer.Tile({
+            source:new ol.source.XYZ({
+               //url:'http://tile.stamen.com/toner/{z}/{x}/{y}.png' 
+               //url:'http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg' 
+               url:'http://{a-d}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg'
+            })
+        });
+```
+
+
+
+toner
+
+![](.\img\07\toner.png)
+
+
+
+
+
+terrain
+
+![](..\notes\img\07\terrain.png)
+
+
+
+
+
+waterolor
+
+![](.\img\07\watercolor.png)
+
+
+
+#### 2.3 Bing地图
+
+
+
+http://www.bingmapsportal.com/
+
+bing地图申请key参考此文：
+
+<https://www.leadong.com/id3895935.html>
+
+我的key:
+
+AkZzC1y0CMFPRtSlBuSrgzrWhQNkP2xqcLd1j_gFyD_E4XBzuoov4DdPjxfhxEaC 
+
+
+
+Bing地图加载方式
+
+
+
+```html
+<body>
+    <div class="map" id="map"></div>
+    <script src="ol/ol.js"></script>
+    <script>
+        //Bing地图 WGS84坐标
+        var styles = [
+            'Road',
+            'Aerial',
+            'AerialWithLabels',
+            'collinsBart',
+            'ordnanceSurvey'
+        ];
+        var bingLayer = new ol.layer.Tile({
+            
+            source:new ol.source.BingMaps({
+                key:'AkZzC1y0CMFPRtSlBuSrgzrWhQNkP2xqcLd1j_gFyD_E4XBzuoov4DdPjxfhxEaC',
+                //数据源类型 见styles
+                imagerySet:'collinsBart',
+            })
+        });
+        var projection = new ol.proj.Projection({
+            code:"EPSG:4326",
+            units:"degrees"
+        })
+        //创建视图
+        var view = new ol.View({
+            center:[116.40,39.920],
+            zoom:10,
+            maxZoom:15,
+            minZoom:2,
+            projection:projection
+        });
+        //创建地图控件
+        var controls = new ol.control.defaults().extend([new ol.control.FullScreen()]);
+        //创建交互控件
+        var interactions = new ol.interaction.defaults().extend([new ol.interaction.DragRotateAndZoom()]);
+        
+        //创建地图
+        var map = new ol.Map({
+            target:"map",
+            layers:[bingLayer],
+            view:view,
+            controls:controls,
+            interactions:interactions,
+        });
+    </script>
+</body>
+```
+
+
+
+
+
+Bing地图的road数据源（其他数据源也可一一尝试，'collinsBart'和'ordnanceSurvey'未能加载）
+
+
+
+![](.\img\07\bing_road.png)
